@@ -7,4 +7,8 @@ IsPrivate: true
 IsOpenForEdit: true
 Tags: "Experimental"
 ScreenshotPaths: "E:\\EvilOtaku\\Pictures\\Core Weapon Tutorial.png"
-ReleaseNotes: "Weapon Tutorial"
+ScreenshotPaths: "C:/Users/EvilOtaku/Documents/My Games/CORE/Saved/Maps/MGD Tutorial/Screenshots/Screenshot0002.png"
+ScreenshotPaths: "C:/Users/EvilOtaku/Documents/My Games/CORE/Saved/Maps/MGD Tutorial/Screenshots/Screenshot0003.png"
+ScreenshotPaths: "C:/Users/EvilOtaku/Documents/My Games/CORE/Saved/Maps/MGD Tutorial/Screenshots/Screenshot0004.png"
+ScreenshotPaths: "C:/Users/EvilOtaku/Documents/My Games/CORE/Saved/Maps/MGD Tutorial/Screenshots/Screenshot0005.png"
+ReleaseNotes: "Created locked treasure chest /w Key and VFX\r\nalso added terrain"

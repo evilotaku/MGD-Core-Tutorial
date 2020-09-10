@@ -16,6 +16,7 @@ Objects {
   }
   ChildIds: 7367735074338159388
   ChildIds: 2218570001835557602
+  ChildIds: 18036256751053463290
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
@@ -23,6 +24,21 @@ Objects {
   ChildIds: 13917771304573375634
   ChildIds: 8100010489031489634
   ChildIds: 12439643456988760468
+  ChildIds: 537266616933869771
+  ChildIds: 15097519004558547901
+  ChildIds: 477753462603362174
+  ChildIds: 4082991299482173743
+  ChildIds: 6184889081500891400
+  ChildIds: 4935667701384605800
+  ChildIds: 387526046285979505
+  ChildIds: 6231798204286525382
+  ChildIds: 11222028124674445241
+  ChildIds: 4212940645353012556
+  ChildIds: 16751991247057431891
+  ChildIds: 11826937145046909597
+  ChildIds: 4838885575412427224
+  ChildIds: 16471024585511140539
+  ChildIds: 8736269012789787446
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,8 +51,1646 @@ Objects {
   }
 }
 Objects {
+  Id: 8736269012789787446
+  Name: "Terrain"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 841534158063459245
+    }
+    VoxelSize: 100
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
+  }
+}
+Objects {
+  Id: 16471024585511140539
+  Name: "Chest Small Closed"
+  Transform {
+    Location {
+      X: 662.855103
+      Y: -64.7953491
+      Z: -3.05175781e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1303766757091610947
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4838885575412427224
+  Name: "Sky Sci-fi 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12743596547252287504
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sky Sci-fi 01"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11446396124862446864
+    }
+  }
+}
+Objects {
+  Id: 11826937145046909597
+  Name: "Level Up VFX"
+  Transform {
+    Location {
+      X: -475.329346
+      Y: 825.415771
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16340848454236910146
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 16751991247057431891
+  Name: "Cone - Truncated"
+  Transform {
+    Location {
+      X: -105.317505
+      Y: 1009.46423
+      Z: 13.0896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13776228291040685428
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 4212940645353012556
+  Name: "2D Basic Shapes Decal"
+  Transform {
+    Location {
+      X: 106.153381
+      Y: 562.391479
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9285773920160154025
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+}
+Objects {
+  Id: 11222028124674445241
+  Name: "Human Gal 1"
+  Transform {
+    Location {
+      X: 118.766724
+      Y: 828.42334
+      Z: 105.000061
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2081390433092710834
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 6231798204286525382
+  Name: "Key"
+  Transform {
+    Location {
+      X: -85.8032532
+      Y: -440.091675
+      Z: 63.4996338
+    }
+    Scale {
+      X: 0.99999994
+      Y: 0.99999994
+      Z: 0.99999994
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10853206201335595555
+  ChildIds: 1823535081795396445
+  ChildIds: 10678870354228017811
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResourceName"
+      String: "Key"
+    }
+    Overrides {
+      Name: "cs:ResourceMin"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:ResourceMax"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 1823535081795396445
+      }
+    }
+    Overrides {
+      Name: "cs:AbilityPickupLoot"
+      AssetReference {
+        Id: 4901585113891358962
+      }
+    }
+    Overrides {
+      Name: "cs:AbilityPickupLootHigh"
+      AssetReference {
+        Id: 9963508804108646257
+      }
+    }
+    Overrides {
+      Name: "cs:DestroyDelay"
+      Float: 0.2
+    }
+    Overrides {
+      Name: "cs:PickupFX"
+      AssetReference {
+        Id: 2352710500915977224
+      }
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6231798204286525382
+    SubobjectId: 419777977596350189
+    InstanceId: 12773282952170214059
+    TemplateId: 16589741344748444952
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 10678870354228017811
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6231798204286525382
+  ChildIds: 3375028478772619370
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 10678870354228017811
+    SubobjectId: 14382925636785548216
+    InstanceId: 12773282952170214059
+    TemplateId: 16589741344748444952
+  }
+}
+Objects {
+  Id: 3375028478772619370
+  Name: "Basic Key"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10678870354228017811
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 725384647509292837
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Key"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.255571187
+            Y: 0.255571187
+            Z: 0.255571187
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9152680982653711338
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10
+            Y: 5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14511619308447940433
+    }
+  }
+}
+Objects {
+  Id: 1823535081795396445
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: 28.5500526
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.582240462
+      Y: 0.582240462
+      Z: 0.582240462
+    }
+  }
+  ParentId: 6231798204286525382
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:sphere"
+    }
+  }
+  InstanceHistory {
+    SelfId: 1823535081795396445
+    SubobjectId: 5397262704155259510
+    InstanceId: 12773282952170214059
+    TemplateId: 16589741344748444952
+  }
+}
+Objects {
+  Id: 10853206201335595555
+  Name: "LootPickup"
+  Transform {
+    Location {
+      Z: 28.5500526
+    }
+    Rotation {
+      Yaw: 1.02452832e-05
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1.00000012
+    }
+  }
+  ParentId: 6231798204286525382
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7402499861298208404
+    }
+  }
+  InstanceHistory {
+    SelfId: 10853206201335595555
+    SubobjectId: 14210764623626310408
+    InstanceId: 12773282952170214059
+    TemplateId: 16589741344748444952
+  }
+}
+Objects {
+  Id: 387526046285979505
+  Name: "Treasure Chest new"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1353815200774619926
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Treasure Chest new"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -252.440125
+            Y: -470.442047
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15813887204172794300
+    }
+  }
+}
+Objects {
+  Id: 4935667701384605800
+  Name: "OnPlayerJoin"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9976606560987260317
+    }
+  }
+}
+Objects {
+  Id: 6184889081500891400
+  Name: "HighScore"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:PlayerText"
+      ObjectReference {
+        SelfId: 14337388136624187373
+      }
+    }
+    Overrides {
+      Name: "cs:ScoreText"
+      ObjectReference {
+        SelfId: 6102395600772335017
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12677393907296787550
+    }
+  }
+}
+Objects {
+  Id: 4082991299482173743
+  Name: "Coins"
+  Transform {
+    Location {
+      Y: 50.568573
+      Z: 30
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Coins"
+  }
+}
+Objects {
+  Id: 477753462603362174
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 200
+      Y: -90
+      Z: 256
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ObjectMover"
+      AssetReference {
+        Id: 35918345443398285
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Coin Collect-a-Thon"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 15097519004558547901
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 1824962187834978194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1824962187834978194
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15097519004558547901
+  ChildIds: 14337388136624187373
+  ChildIds: 6102395600772335017
+  ChildIds: 4831213644845809931
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 4831213644845809931
+  Name: "CoinUI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1824962187834978194
+  ChildIds: 17821341411686756370
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 363
+    Height: 60
+    UIX: 1312.76245
+    UIY: 58.6854324
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Coin Count"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17821341411686756370
+  Name: "DisplayCoins"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4831213644845809931
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13479923690046987929
+    }
+  }
+}
+Objects {
+  Id: 6102395600772335017
+  Name: "ScoreText"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1824962187834978194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIX: 1401.54858
+    UIY: 126.887428
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "0"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 14337388136624187373
+  Name: "PlayerText"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1824962187834978194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIX: 1317.51917
+    UIY: 126.887466
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Player: "
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 537266616933869771
+  Name: "Fire Staff"
+  Transform {
+    Location {
+      X: 200
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 16351724339143092753
+  ChildIds: 781344365996557098
+  ChildIds: 7516513810123891096
+  ChildIds: 18145183145910924365
+  ChildIds: 2723326424166319307
+  ChildIds: 16020905352212655797
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EnableAim"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:AimBinding"
+      String: "ability_secondary"
+    }
+    Overrides {
+      Name: "cs:AimActiveStance"
+      String: "2hand_staff_stance"
+    }
+    Overrides {
+      Name: "cs:AimWalkSpeedPercentage"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:AimZoomDistance"
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:HeadshotDamage"
+      Int: 100
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Equipment {
+    SocketName: "right_prop"
+    PickupTrigger {
+      SelfId: 18145183145910924365
+    }
+    Weapon {
+      ProjectileAssetRef {
+        Id: 16547825633921539572
+      }
+      MuzzleFlashAssetRef {
+        Id: 841534158063459245
+      }
+      TrailAssetRef {
+        Id: 841534158063459245
+      }
+      ImpactAssetRef {
+        Id: 15728676179772725900
+      }
+      Muzzle {
+        Location {
+        }
+        Rotation {
+        }
+      }
+      AnimationSet: "2hand_staff_stance"
+      OutOfAmmoSfxAssetRef {
+        Id: 841534158063459245
+      }
+      ReloadSfxAssetRef {
+        Id: 841534158063459245
+      }
+      ImpactProjectileAssetRef {
+        Id: 841534158063459245
+      }
+      BeamAssetRef {
+        Id: 841534158063459245
+      }
+      BurstCount: 1
+      BurstDuration: 4
+      Range: 100000
+      ImpactPlayerAssetRef {
+        Id: 6048047851489860782
+      }
+      ReticleType {
+        Value: "mc:ereticletype:crosshair"
+      }
+      MaxAmmo: -1
+      AmmoType: "rounds"
+      MultiShot: 1
+      ProjectileSpeed: 2000
+      ProjectileLifeSpan: 10
+      ProjectileGravity: 0.5
+      ProjectileLength: 100
+      ProjectileRadius: 4
+      SpreadMin: 1
+      SpreadMax: 90
+      SpreadDecreaseSpeed: 6
+      SpreadIncreasePerShot: 2
+      SpreadPenaltyPerShot: 1.5
+      DefaultAbility {
+        SelfId: 16351724339143092753
+      }
+      ReloadAbility {
+        SelfId: 781344365996557098
+      }
+      Damage: 50
+      WeaponTrajectoryMode {
+        Value: "mc:eweapontrajectorymode:muzzletolooktarget"
+      }
+    }
+  }
+}
+Objects {
+  Id: 16020905352212655797
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 537266616933869771
+  ChildIds: 11436709898624215587
+  ChildIds: 2218612254988887873
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
+  Id: 2218612254988887873
+  Name: "WeaponDamageServerShoot"
+  Transform {
+    Location {
+      X: -200
+      Z: -100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16020905352212655797
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18253779426420526157
+    }
+  }
+}
+Objects {
+  Id: 11436709898624215587
+  Name: "WeaponAimServer"
+  Transform {
+    Location {
+      X: -200
+      Z: -100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16020905352212655797
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8848724939628700203
+    }
+  }
+}
+Objects {
+  Id: 2723326424166319307
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 537266616933869771
+  ChildIds: 15185232363043259905
+  ChildIds: 17562970333756168995
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 17562970333756168995
+  Name: "Scripts"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2723326424166319307
+  ChildIds: 11856975345417274180
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 11856975345417274180
+  Name: "WeaponAimClient"
+  Transform {
+    Location {
+      X: -200
+      Z: -100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17562970333756168995
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 35942391198536738
+    }
+  }
+}
+Objects {
+  Id: 15185232363043259905
+  Name: "Art"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2723326424166319307
+  ChildIds: 836145511529549760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 836145511529549760
+  Name: "Fantasy Weapon - Staff 01 (Prop)"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15185232363043259905
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1079536841329665400
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9507871163929743574
+      value {
+        Overrides {
+          Name: "ma:Shared_Trim:color"
+          Color {
+            R: 0.590000033
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.965423584
+            Z: 55
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11294956961658142448
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Weapon - Staff 01 (Prop)"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15064612304757419805
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.87
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17072758743876884066
+    }
+  }
+}
+Objects {
+  Id: 18145183145910924365
+  Name: "PickupTrigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 537266616933869771
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 7516513810123891096
+  Name: "Firefly"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 537266616933869771
+  ChildIds: 10145336585342330594
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Ability {
+    IsEnabled: true
+    CastPhaseSettings {
+      Duration: 0.15
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:movement"
+      }
+    }
+    ExecutePhaseSettings {
+      Duration: 3
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:movement"
+      }
+    }
+    RecoveryPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      Duration: 12
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    Animation: "2hand_staff_magic_up"
+    KeyBinding_v2 {
+      Value: "mc:egameaction:extraaction_04"
+    }
+  }
+}
+Objects {
+  Id: 10145336585342330594
+  Name: "FlyAbilityServer"
+  Transform {
+    Location {
+      X: -200
+      Z: -100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7516513810123891096
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4104547142623568162
+    }
+  }
+}
+Objects {
+  Id: 781344365996557098
+  Name: "ReloadAbility"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 537266616933869771
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Ability {
+    IsEnabled: true
+    KeyBinding: "ability_ult"
+    CastPhaseSettings {
+      Duration: 0.6
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    ExecutePhaseSettings {
+      Duration: 0.15
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    RecoveryPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    Animation: "2hand_staff_magic_up"
+    KeyBinding_v2 {
+      Value: "mc:egameaction:extraaction_03"
+    }
+  }
+}
+Objects {
+  Id: 16351724339143092753
+  Name: "AttackAbility"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 537266616933869771
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Ability {
+    IsEnabled: true
+    KeyBinding: "ability_primary"
+    CastPhaseSettings {
+      Duration: 0.03
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    ExecutePhaseSettings {
+      Duration: 0.1
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:aim"
+      }
+    }
+    RecoveryPhaseSettings {
+      Duration: 0.01
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    CooldownPhaseSettings {
+      CanMove: true
+      CanJump: true
+      CanRotate: true
+      PreventOtherAbilities: true
+      IsTargetDataUpdated: true
+      Facing_V2 {
+        Value: "mc:eabilitysetfacing:none"
+      }
+    }
+    Animation: "2hand_staff_magic_bolt"
+    KeyBinding_v2 {
+      Value: "mc:egameaction:primaryaction"
+    }
+  }
+}
+Objects {
   Id: 12439643456988760468
-  Name: "Weapon"
+  Name: "Gun"
   Transform {
     Location {
       X: 150
@@ -1163,11 +2817,11 @@ Objects {
         }
         Overrides {
           Name: "cs:Binding"
-          String: "ability_feet"
+          String: "ability_1"
         }
         Overrides {
           Name: "cs:BindingHint"
-          String: "Shift"
+          String: "Q"
         }
         Overrides {
           Name: "cs:ShowAbilityName"
@@ -1193,7 +2847,7 @@ Objects {
 }
 Objects {
   Id: 13917771304573375634
-  Name: "Equipment"
+  Name: "Wave Powerup"
   Transform {
     Location {
       Y: 150
@@ -1292,9 +2946,9 @@ Objects {
         Value: "mc:eabilitysetfacing:none"
       }
     }
-    Animation: "unarmed_wave"
+    Animation: "2hand_melee_slash_vertical"
     KeyBinding_v2 {
-      Value: "mc:egameaction:extraaction_04"
+      Value: "mc:egameaction:extraaction_01"
     }
   }
 }
@@ -1407,7 +3061,8 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
-      X: 200
+      X: 200.409454
+      Y: -113.520142
       Z: -50
     }
     Rotation {
@@ -1956,7 +3611,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 115
+      X: 494.283203
+      Z: 10170.9375
     }
     Rotation {
     }
@@ -1977,6 +3633,37 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
+  }
+}
+Objects {
+  Id: 18036256751053463290
+  Name: "Respawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    RespawnSettings {
+      RespawnDelay: 10
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:farthestfromenemy"
+      }
+    }
   }
 }
 Objects {
@@ -2004,7 +3691,7 @@ Objects {
     IsDefault: true
     TeamSettings {
       TeamMode_v2 {
-        Value: "mc:eteammode:ffa"
+        Value: "mc:eteammode:teamsvs"
       }
     }
   }
@@ -2034,9 +3721,11 @@ Objects {
     IsDefault: true
     GameSettings {
       RagdollOnDeath: true
+      EnablePlayerStorage: true
       ChatMode {
         Value: "mc:echatmode:teamandall"
       }
+      EnablePlayModeProfiler: true
     }
   }
 }

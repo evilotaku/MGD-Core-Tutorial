@@ -26,6 +26,24 @@ Assets {
   }
 }
 Assets {
+  Id: 16340848454236910146
+  Name: "Level Up VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_Level_Up"
+  }
+}
+Assets {
+  Id: 13776228291040685428
+  Name: "Cone - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_001"
+  }
+}
+Assets {
   Id: 13442965192408425307
   Name: "Modern Weapon Accessory - Rail 01"
   PlatformAssetType: 1
@@ -98,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9285773920160154025
+  Name: "2D Basic Shapes Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_basicShapes"
+  }
+}
+Assets {
   Id: 9117384065423546074
   Name: "Modern Weapon - Sight Rear 01"
   PlatformAssetType: 1
@@ -149,6 +176,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_sight_forw_002"
+  }
+}
+Assets {
+  Id: 2081390433092710834
+  Name: "Human Gal 1"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_basic_001_ref"
+  }
+}
+Assets {
+  Id: 1303766757091610947
+  Name: "Chest Small Closed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chest_001"
   }
 }
 Assets {
